@@ -1,11 +1,10 @@
-import React from 'react'
 import "./Main.css"; 
-import Header from '../Header/Header';
+import About from '../About/About';
 const Main = () => {
   return (
-    <div>
-      <Header/>
-    </div>
+    <section className='main__wrap'>
+      <About/>
+    </section>
   )
 }
 
