@@ -15,6 +15,7 @@ const Header = () => {
         <button className="header__content-button">More Info</button>
       </div>
     </div>
+
   );
 };
 

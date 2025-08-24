@@ -1,10 +1,14 @@
 .header {
-  background: url("../../assets/backgroundTwo.png") no-repeat 60% -5% / cover;
+  background: url("../../assets/backgroundTwo.png") no-repeat center center/ contain;
+  max-width:1440px; 
   width: 100%;
-  background-color: #f4f4f4;
+  height:auto; 
+  object-fit: contain;
+  display:block; 
+  background-color: #e1cfcf;
   color: #fff;
   position: relative;
-  height:90vh; 
+  
 }
 .header::before {
   position: absolute;
@@ -12,12 +16,13 @@
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom:0;
   background: rgba(0, 0, 0, 0.4);
   z-index: 0;
 }
 .header__content {
   position: relative;
+  inset:0; 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
