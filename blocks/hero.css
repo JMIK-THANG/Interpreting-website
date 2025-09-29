@@ -1,48 +1,21 @@
 .hero {
-  background: #e9f0ff;
-}
-.hero__content {
+  min-height: calc(100vh - 80px);
   display: flex;
-  /* flex-wrap: wrap; */
-  height: calc(100vh - 80px);
+  align-items: center; /* vertical centering directly */
+}
+.hero__inner {
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 12px;
- 
+  width: 100%;
 }
-.hero__text {
-  max-width:750px;
-  margin-top:-200px;
-  font-size:30px;
+.hero__text,.hero__media{ 
+      flex:1; 
 }
 .hero__image {
-  width: 800px;
-  height: 550px;
-  object-fit: cover;
+  width: 100%;
+  max-width: 490px; /* responsive cap */
+  height: 400px;;     /* natural scale */
+  object-fit: cover; /* or 'contain' if you don’t want crop */
   border-radius: 20px;
-  margin-left:-100px;
-}
-.hero__heading {
-  font-size: 85px;
-  margin:0 0 2rem; 
-  padding:0; 
-}
-
-button {
-  padding: 20px 30px;
-  margin-right: 20px;
-   margin-bottom:100px;
-}
-.hero__features {
-  display: flex;
-  gap: 30px;
-}
-.hero__description{ 
-      margin:0 0 2.5rem;
-      padding:0; 
-      line-height:48px;
-}
-.box {
-  border: 1px solid black;
-  padding: 20px 30px;
 }
