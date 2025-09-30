@@ -1,6 +1,8 @@
 .container{ 
   color:black;
   padding:0 100px;
+  overflow-y:hidden;
+  scroll-snap-type: y mandatory;
 }
 .nav{ 
   position:fixed; 
@@ -20,7 +22,7 @@
 .nav__list{ 
   display:flex;
   list-style: none;
-  font-size:25px;
+  font-size:20px;
   gap:30px;
 }
 .nav__link{ 
@@ -30,5 +32,5 @@
 .nav__cta{ 
   text-decoration:none; 
   color:#fff; 
-  font-size:30px; 
+  font-size:20px; 
 }
