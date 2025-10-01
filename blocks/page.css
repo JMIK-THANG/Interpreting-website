@@ -1,5 +1,10 @@
+*{ 
+      margin:0; 
+      padding:0; 
+      box-sizing:border-box; 
+}
 .page {
-  max-width: 1440px;
   font-family: "Open Sans", sans-serif;
+  margin:0 auto; 
   
 }
