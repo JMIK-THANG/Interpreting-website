@@ -14,7 +14,7 @@
 .services__subtitle {
   margin-bottom: 1rem;
   font-size: 36px;
-  font-weight: 900;
+  font-weight: 700;
 }
 .services__section-title {
   margin-bottom: 2rem;
@@ -41,7 +41,7 @@
 .services__list {
   list-style-position: inside;
 }
-.services__icon {
+.fa-solid{
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
