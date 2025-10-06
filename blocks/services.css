@@ -1,0 +1,47 @@
+.services {
+  padding: 80px 0;
+}
+.services__header {
+  text-align: center;
+  margin: 0 auto 4rem;
+  max-width: 768px;
+  width: 100%;
+}
+.services__title {
+  padding: 2px 8px;
+  margin-bottom: 1rem;
+}
+.services__subtitle {
+  margin-bottom: 1rem;
+  font-size: 36px;
+  font-weight: 900;
+}
+.services__section-title {
+  margin-bottom: 2rem;
+}
+.services__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.services__card {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  gap: 1rem;
+}
+.services__card-title{ 
+      font-weight:400; 
+      margin-bottom:1rem;
+      font-size:1.5rem;
+}
+
+.services__list {
+  list-style-position: inside;
+}
+.services__icon {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
