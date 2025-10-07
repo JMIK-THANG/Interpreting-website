@@ -3,4 +3,6 @@
 @import url(../blocks/nav.css);
 @import url(../blocks/hero.css);
 @import url(../blocks/page.css); 
-@import url(../blocks/services.css)
+@import url(../blocks/services.css); 
+@import url(../pages/theme.css);
+

@@ -1,0 +1,22 @@
+/* pages/theme.css */
+:root{
+  --nav-bg: #0F1216;
+  --page-bg: #F7F9FC;
+  --surface: #FFFFFF;
+  --text: #0F1216;
+  --text-muted: #4B5563;
+  --border: #E5E7EB;
+
+  --primary: #205A28;
+  --primary-hover: #17421E;
+
+  --danger: #C72B32;
+  --danger-hover: #A12228;
+
+  --accent: #D4AF37;       /* gold */
+  --accent-hover: #B8903A;
+
+  --focus: #60A5FA;
+}
+
+body{ background: var(--page-bg); color: var(--text); }
