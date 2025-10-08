@@ -91,17 +91,67 @@
 }
 
 /* responsive: stack nicely on small screens */
-@media (max-width: 640px){
-  .cred{ flex-wrap:wrap; row-gap:10px; border-radius:14px; }
-  .cred__divider{ display:none; }
+
+
+/* ===== tablet ===== */
+@media (max-width: 1024px){
+  .container{ padding: 0 32px; }
+  .nav__inner{ height: 72px; }
+  .page{ padding-top: 72px; }
+  .nav__brand{ width: 64px; height: 64px; }
+  .nav__list{ gap: 22px; font-size: 18px; }
 }
 
+/* ===== mobile (no JS, no extra markup) ===== */
+@media (max-width: 900px){
+  .container{ padding: 0 20px; }
 
-@media screen and (max-width:1023px) { 
-  .container{ 
-    padding:0 20px;
+  /* allow wrapping into 2 rows */
+  .nav__inner{
+    height: auto;
+    padding: 10px 0 12px;
+    flex-wrap: wrap;
+    gap: 12px;
   }
-  .nav__list{ 
-    /* flex-direction:column;  */
+
+  .nav__brand{ width: 56px; height: 56px; }
+
+  /* keep CTA beside logo on the first row */
+  .nav__cta{
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    order: 2;
+    margin-left: auto;         /* pushes it to the right on row 1 */
+  }
+
+  /* links go to their own full-width row */
+  .nav__menu{
+    order: 3;
+    flex: 1 1 100%;
+  }
+  .nav__list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 10px;
+    font-size: 16px;
+  }
+  .nav__link{
+    display: block;
+    text-align: center;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,.18);
+    background: rgba(255,255,255,.06);
+  }
+}
+
+/* extra-small phones */
+@media (max-width: 480px){
+  .nav__link{ padding: 8px; }
+  .nav__cta{
+    order: 2;
+    width: 100%;
+    text-align: center;        /* CTA becomes full width under logo */
   }
 }

@@ -1,5 +1,6 @@
 .services {
   padding: 80px 0;
+  background:#F9FAFB;
 }
 .services__header {
   text-align: center;
@@ -44,4 +45,15 @@
 .fa-solid{
   margin-bottom: 1rem;
   font-size: 1.5rem;
+}
+ 
+@media screen and (max-width:1100px){ 
+  .services__cards{ 
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media screen and (max-width:700px){ 
+  .services__cards{ 
+    grid-template-columns: 1fr;
+  }
 }
