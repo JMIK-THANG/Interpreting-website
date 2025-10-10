@@ -1,4 +1,9 @@
-.footer{ 
-      color :red;
-      font-size:40px; 
+.footer {
+  background: #e1e9ff;
+}
+.footer__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
 }
