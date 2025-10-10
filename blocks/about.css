@@ -7,7 +7,6 @@
   --card-border: #e9eef7;
 }
 
-/* .about { padding: 96px 0 56px; } */
 
 .about__inner{
   display: grid;
@@ -61,16 +60,15 @@
   display:grid;
   gap:24px;
   grid-template-columns: repeat(4, 1fr);
-  padding:4rem 0; 
+  padding:4rem 0 2rem; 
 }
 
 .metric{
   text-align:center;
-  background:#fff;
-  border:1px solid var(--card-border);
+  border:2px solid var(--card-border);
   border-radius:18px;
   padding:28px 24px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.06);
+  box-shadow: 0 10px 30px rgba(0,0,0,.02);
 }
 
 .metric__icon{
