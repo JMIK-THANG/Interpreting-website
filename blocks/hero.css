@@ -9,11 +9,14 @@
   align-items: center;
   gap: 30px;
   width: 100%;
-  padding-top: 120px;
+  /* padding-top: 120px; */
 }
 .hero__text,
 .hero__media {
   flex: 1 1 0;
+}
+.hero__text{ 
+  padding-top:2rem;
 }
 .hero__media {
   display: flex;
@@ -27,6 +30,7 @@
   font-size: 18px;
   margin: 0 0 2rem;
   line-height: 30px;
+  width: 100%;
 }
 .hero__actions {
   display: flex;
@@ -124,13 +128,10 @@
   color: #cbd5e1;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1022px) {
   .hero__inner .container {
     padding-inline: 0;
     margin: 0;
-  }
-  .hero {
-    padding: 80px 0;
   }
   .hero__inner {
     flex-direction: column;
@@ -148,6 +149,14 @@
 @media screen and (max-width: 600px) {
   .cred {
     flex-direction: column;
-    gap: 0;
+    gap: 5px;
+  }
+  .cred__langs{ 
+    font-size:10px;
+    gap:0px;
+
+  }
+  .cred__divider{ 
+    display:none;
   }
 }

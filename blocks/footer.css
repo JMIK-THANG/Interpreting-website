@@ -8,3 +8,14 @@
   padding: 30px;
   color:#fff;
 }
+@media screen and ( max-width:600px){ 
+  .footer__card{ 
+    flex-direction:column; 
+    justify-content: center;
+    text-align: center;
+    gap:20px;
+  }
+  .footer__left,.footer__right{ 
+    font-size:14px;
+  }
+}
