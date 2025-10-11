@@ -1,9 +1,10 @@
 .footer {
-  background: #e1e9ff;
+  background:var(--footer-bg);
 }
 .footer__card {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px;
+  color:#fff;
 }

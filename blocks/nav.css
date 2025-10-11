@@ -9,18 +9,18 @@
   top:0; 
   left:0;
   right:0; 
-  background:#0c1A2A;
+  border-bottom:1px solid #ccc;
+  background:var(--nav-bg);
+  z-index:10;
 }
 .nav__brand{
   width:80px; 
   height:80px; 
 }
 .nav__inner{ 
-  color:#fff;
   display:flex;
   justify-content: space-between;
   align-items: center;
-  /* height:80px; */
  
 }
 .nav__list{ 
@@ -31,7 +31,7 @@
   
 }
 .nav__link{ 
-  color:#fff;
+  color:#000;
   text-decoration:none; 
 }
 .nav__cta{ 

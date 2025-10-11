@@ -1,10 +1,10 @@
 .services {
   padding: 80px 0;
-  background: #f9fafb;
+  background:var(--services-bg);
 }
 .services__header {
   text-align: center;
-  margin: 0 auto 4rem;
+  margin: 0 auto;
   max-width: 768px;
   width: 100%;
 }
@@ -21,10 +21,14 @@
   width:100%; 
   margin:0 auto 1.5rem;
 }
+
 .services__subtitle {
   margin-bottom: 1rem;
   font-size: 36px;
   font-weight: 700;
+}
+.services__description{ 
+  margin-bottom:4rem;
 }
 .services__section-title {
   margin-bottom: 2rem;

@@ -1,22 +1,13 @@
-/* pages/theme.css */
-:root{
-  --nav-bg: #0F1216;
-  --page-bg: #F7F9FC;
-  --surface: #FFFFFF;
-  --text: #0F1216;
-  --text-muted: #4B5563;
-  --border: #E5E7EB;
-
-  --primary: #205A28;
-  --primary-hover: #17421E;
-
-  --danger: #C72B32;
-  --danger-hover: #A12228;
-
-  --accent: #D4AF37;       /* gold */
-  --accent-hover: #B8903A;
-
-  --focus: #60A5FA;
+:root {
+  --hero-bg: #f2f6fa;
+  --nav-bg: #f9fafb;
+  --about-bg: #faf7f2;
+  --services-bg: #edeff2;
+  --footer-bg: #1e1e1e;
+  --color-dark: #000;
+  --color-white: #ffffff;
+  --button-bg: #d1ad35;
+  --button-hover: #d8b74c;
+  --brand-color: #d1ad35;
+   --icon-bg: #eaf1ff;
 }
-
-body{ background: var(--page-bg); color: var(--text); }

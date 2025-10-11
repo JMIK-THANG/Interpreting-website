@@ -1,13 +1,6 @@
-/* ===== Core Values ===== */
-:root {
-  --brand: #2f5fff;
-  --ink: #0f2137;
-  --muted: #516072;
-  --icon-bg: #eaf1ff;
-}
 
 .values {
-  background: #ffffff;
+  background:var(--hero-bg);
   padding: 2.5rem 0;
   text-align: center;
 }
@@ -53,12 +46,11 @@
   place-items: center;
   width: 28px;
   height: 28px;
-  background: #2f5fff;
+  background:var(--brand-color);
   color: #fff;
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.06);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  font-size: 14px;
   line-height: 1;
 }
 
