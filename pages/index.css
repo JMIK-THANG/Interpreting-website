@@ -7,5 +7,6 @@
 @import url(../pages/theme.css);
 @import url(../blocks/about.css);
 @import url(../blocks/value.css);
-@import url(../blocks/contact.css)
+@import url(../blocks/contact.css); 
+@import url(../blocks/mobile-nav.css); 
 
