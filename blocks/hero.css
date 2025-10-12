@@ -131,9 +131,7 @@
 }
 
 @media screen and (max-width: 1022px) {
-   .hero{ 
-    padding-top:80px;
-  }
+  
   .hero__inner .container {
     padding-inline: 0;
     margin: 0;
@@ -152,6 +150,9 @@
   }
 }
 @media screen and (max-width: 600px) {
+   .hero{ 
+    padding-top:80px;
+  }
   .cred {
     flex-direction: column;
     gap: 5px;
