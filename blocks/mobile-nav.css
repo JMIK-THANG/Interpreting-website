@@ -1,5 +1,5 @@
 .nav__inner {
-  min-height: 80px;
+ height: 80px;
   position: relative;
 } /* matches your brand 80x80 */
 
@@ -62,12 +62,12 @@
 
   .nav__panel-header {
     position: sticky;
+    height:60px;
     top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 12px;
-    padding:0px;
     background: var(--nav-bg, #fff);
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
     z-index: 1;
@@ -105,8 +105,9 @@
     border-radius: 12px;
   }
   .nav__inner {
-    height: auto;
-    padding: 0;
+    height: 60px;
+    padding: 0 20px;
+    align-items: center;
     flex-wrap: wrap;
     gap: 12px;
   }
