@@ -27,9 +27,6 @@
   margin: 7px 0;
   transition: transform 0.25s ease, opacity 0.2s ease;
 }
-.nav__panel-header {
-  display: none;
-}
 @media (max-width: 900px) {
   .nav__toggle {
     display: inline-block;

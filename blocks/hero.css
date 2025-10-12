@@ -116,7 +116,6 @@
   color: var(--text-muted, #4b5563);
 }
 
-/* dot separators */
 .cred__lang {
   position: relative;
   padding-right: 12px;
@@ -146,7 +145,7 @@
 }
 @media screen and (max-width: 600px) {
    .hero{ 
-    padding-top:20px;
+    padding-top:30px;
   }
   .cred {
     flex-direction: column;
