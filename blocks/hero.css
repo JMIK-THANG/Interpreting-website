@@ -82,7 +82,7 @@
   padding: 14px 18px;
   background: var(--surface, #fff);
   border: 1px solid var(--border, #e5e7eb);
-  border-radius: 999px; /* pill look */
+  border-radius: 999px; 
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
 }
 
@@ -150,14 +150,13 @@
 }
 @media screen and (max-width: 600px) {
    .hero{ 
-    padding-top:0px;
+    padding-top:15px;
   }
   .cred {
     flex-direction: column;
     gap: 5px;
   }
   .cred__langs{ 
-    font-size:10px;
     gap:0px;
 
   }
