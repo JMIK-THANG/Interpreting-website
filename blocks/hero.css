@@ -67,13 +67,15 @@
   width: 100%;
 }
 
-.hero__image {
-  width: 100%;
-  max-width: 600px;
+
+ .hero__image {
+   width: 100%;
   height: 450px;
-  object-fit: cover;
+  object-fit:cover;
   border-radius: 20px;
 }
+
+
 .cred {
   display: flex;
   align-items: center;
@@ -158,5 +160,8 @@
   }
   .cred__divider{ 
     display:none;
+  }
+  .hero{ 
+    padding-top:80px;
   }
 }

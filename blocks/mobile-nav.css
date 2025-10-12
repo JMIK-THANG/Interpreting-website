@@ -28,7 +28,9 @@
   margin: 7px 0;
   transition: transform 0.25s ease, opacity 0.2s ease;
 }
-
+.nav__panel-header{ 
+  display:none;
+}
 @media (max-width: 900px) {
   .nav__toggle {
     display: inline-block;
@@ -72,7 +74,7 @@
     z-index: 1; /* keep it above the body */
   }
   .nav__brand {
-    width: 100px;
+    width: 90px;
     height: auto;
     display: block;
   }
@@ -104,7 +106,13 @@
     padding: 14px 8px;
     border-radius: 12px;
   }
+ .nav__inner{ 
+  height:auto;
+  padding:0; 
+  flex-wrap:wrap; 
+  gap:12px; 
 
+ }
   /* Burger -> X animation (unchanged) */
   .nav.nav--open .nav__toggle span:nth-child(1) {
     transform: translateY(9px) rotate(45deg);
