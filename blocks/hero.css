@@ -130,11 +130,7 @@
 }
 
 @media screen and (max-width: 1022px) {
-  
-  .hero__inner .container {
-    padding-inline: 0;
-    margin: 0;
-  }
+ 
   .hero__inner {
     flex-direction: column;
     align-items: stretch;
@@ -150,7 +146,7 @@
 }
 @media screen and (max-width: 600px) {
    .hero{ 
-    padding-top:15px;
+    padding-top:20px;
   }
   .cred {
     flex-direction: column;
