@@ -142,6 +142,9 @@
   }
 }
 @media screen and (max-width: 600px) {
+  .hero{ 
+    padding-top:25px; 
+  }
   .cred {
     flex-direction: column;
     gap: 5px;
