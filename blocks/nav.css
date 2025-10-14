@@ -28,10 +28,23 @@
   font-size: 20px;
   gap: 30px;
 }
-.nav__link {
+/* .nav__link {
   color: #000;
   text-decoration: none;
+} */
+ .nav__link {
+  color: black;             /* normal color */
+  text-decoration: none;
+  padding: 8px 16px;
+  transition: 0.3s;
 }
+
+.nav__link.active {
+  background-color: #205A28;  /* green highlight */
+  color: white;               /* text turns white */
+  border-radius: 6px;
+}
+
 .nav__cta {
   text-decoration: none;
   color: #fff;
