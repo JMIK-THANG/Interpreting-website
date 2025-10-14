@@ -118,11 +118,11 @@
     height: auto;
   }
   .page {
-    padding-top: 72px;
+    /* padding-top: 72px; */
   }
   .nav__brand {
-    width: 64px;
-    height: 64px;
+    width: 84px;
+    height: 84px;
   }
   .nav__list {
     gap: 22px;
@@ -133,7 +133,7 @@
 /* ===== mobile (no JS, no extra markup) ===== */
 @media (max-width: 900px) {
   .container {
-    padding: 0 20px;
+    padding: 0 30px;
   }
 
   /* allow wrapping into 2 rows */
@@ -145,8 +145,8 @@
   }
 
   .nav__brand {
-    width: 56px;
-    height: 56px;
+    width: 86px;
+    height: 86px;
   }
 
   /* keep CTA beside logo on the first row */
@@ -183,6 +183,9 @@
 @media (max-width: 480px) {
   .nav__link {
     padding: 8px;
+  }
+  .nav__brand{ 
+  width:90px;
   }
   .nav__cta {
     order: 2;
