@@ -11,3 +11,13 @@
   --brand-color: #d1ad35;
    --icon-bg: #eaf1ff;
 }
+:root {
+ 
+  --font-size-header: 3rem;      
+  --font-size-subheader: 2rem;    
+  --font-size-heading3: 1.5rem;   
+  --font-size-paragraph: 1rem;    
+  --font-size-small: 0.875rem;   
+
+}
+

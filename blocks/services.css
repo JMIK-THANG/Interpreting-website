@@ -24,10 +24,12 @@
 
 .services__subtitle {
   margin-bottom: 1rem;
-  font-size: 36px;
+  font-size:var(--font-size-subheader);
+
   font-weight: 700;
 }
 .services__description{ 
+  font-size:var(--font-size-paragraph); 
   margin-bottom:4rem;
 }
 .services__section-title {

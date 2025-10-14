@@ -23,7 +23,7 @@
 .about__title {
   font-weight: 700;
   line-height: 1.08;
-  font-size: 36px;
+  font-size:var(--font-size-subheader); 
   margin: 0 0 18px;
 }
 
