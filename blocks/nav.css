@@ -19,11 +19,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 90px;
+  height:auto;
 }
 
 .nav__brand {
-  height: 120px; /* large visible logo */
+  height: 80px; 
   width: auto;
   display: block;
   padding: 0;
@@ -34,8 +34,7 @@
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 40px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -47,9 +46,13 @@
 }
 
 .nav__link.active {
-  background-color: #205a28;
-  color: white;
-  border-radius: 6px;
+  
+  background-color: #205A28; /* Deep forest green */
+  color: #fff;
+  border-radius:6px; 
+}
+.nav__link.active:hover {
+  background-color: #17441D;
 }
 .nav__cta {
   text-decoration: none;
@@ -117,13 +120,6 @@
   .nav__inner {
     height: auto;
   }
-  .page {
-    /* padding-top: 72px; */
-  }
-  .nav__brand {
-    width: 84px;
-    height: 84px;
-  }
   .nav__list {
     gap: 22px;
     font-size: 18px;
@@ -144,10 +140,6 @@
     gap: 12px;
   }
 
-  .nav__brand {
-    width: 86px;
-    height: 86px;
-  }
 
   /* keep CTA beside logo on the first row */
   .nav__cta {
@@ -179,7 +171,6 @@
   }
 }
 
-/* extra-small phones */
 @media (max-width: 480px) {
   .nav__link {
     padding: 8px;
