@@ -62,7 +62,7 @@
   .nav__panel-body {
     flex: 1;
     overflow: auto;
-    padding: 180px 16px 24px;
+    padding:80px 16px 24px;
     -webkit-overflow-scrolling: touch;
   }
 

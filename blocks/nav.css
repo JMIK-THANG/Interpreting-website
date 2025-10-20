@@ -19,11 +19,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height:auto;
+  height: auto;
 }
 
 .nav__brand {
-  height: 80px; 
+  height: 80px;
   width: auto;
   display: block;
   padding: 0;
@@ -46,13 +46,12 @@
 }
 
 .nav__link.active {
-  
-  background-color: #205A28; /* Deep forest green */
+  background-color: #205a28; /* Deep forest green */
   color: #fff;
-  border-radius:6px; 
+  border-radius: 6px;
 }
 .nav__link.active:hover {
-  background-color: #17441D;
+  background-color: #17441d;
 }
 .nav__cta {
   text-decoration: none;
@@ -140,14 +139,13 @@
     gap: 12px;
   }
 
-
   /* keep CTA beside logo on the first row */
   .nav__cta {
     font-size: 16px;
     padding: 8px 12px;
     border-radius: 10px;
     order: 2;
-    margin-left: auto; /* pushes it to the right on row 1 */
+    margin-left: auto; 
   }
 
   /* links go to their own full-width row */
@@ -175,8 +173,8 @@
   .nav__link {
     padding: 8px;
   }
-  .nav__brand{ 
-  width:90px;
+  .nav__brand {
+    width: 90px;
   }
   .nav__cta {
     order: 2;
