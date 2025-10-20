@@ -46,7 +46,7 @@
   place-items: center;
   width: 28px;
   height: 28px;
-  background:var(--brand-color);
+  background:var(--button-bg);
   color: #fff;
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.06);

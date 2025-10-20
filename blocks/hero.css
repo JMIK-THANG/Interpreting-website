@@ -42,7 +42,7 @@
   padding: 10px 20px;
   border: none;
   color: var(--color-white);
-  background: var(--button-hover);
+  background: var(--button-bg);
   transition: background 0.3s ease-in-out;
 }
 .hero__actions a:hover {
