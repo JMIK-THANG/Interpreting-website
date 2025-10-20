@@ -1,5 +1,5 @@
 .hero {
-  min-height: 95vh;
+  min-height: 100vh;
   display: flex;
   background: var(--hero-bg);
 }
